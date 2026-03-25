@@ -1,0 +1,18 @@
+# Large training artifacts
+checkpoints/
+data/
+hf_models/
+tensorboard/
+wandb_storage/
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Vocab/merge files (large, downloadable from HuggingFace)
+# Remove these lines below if your vocab.json/merges.txt are custom
+# vocab.json
+# merges.txt
